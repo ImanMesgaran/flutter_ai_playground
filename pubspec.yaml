@@ -15,13 +15,17 @@ dependencies:
   cupertino_icons: ^1.0.0
 
   # Bloc
-  bloc: ^6.1.1
-  flutter_bloc: ^6.1.1
+  bloc: ^7.0.0
+  flutter_bloc: ^7.0.0
 
   # Image Picker
-  image_picker: ^0.6.7+14
+  image_picker: ^0.7.3
   # Tensorflow lite
-  tflite: ^1.1.1
+  # tflite: ^1.1.1
+  tflite:
+    git:
+      url: git://github.com/ImanMesgaran/flutter_tflite.git
+      ref: master
 
 dev_dependencies:
   flutter_test:

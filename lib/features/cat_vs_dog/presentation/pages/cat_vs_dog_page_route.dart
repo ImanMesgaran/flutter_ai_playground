@@ -34,7 +34,7 @@ class _CatVsDogPageRouteState extends State<CatVsDogPageRoute> {
     return Scaffold(
       backgroundColor: defaultColor.withOpacity(0.5),
       body: BlocConsumer<CatVsDogCubit, CatVsDogState>(
-        cubit: _catVsDogCubit,
+        bloc: _catVsDogCubit,
         listener: (context, state) {
           // TODO: implement listener
         },
@@ -49,7 +49,7 @@ class _CatVsDogPageRouteState extends State<CatVsDogPageRoute> {
                 children: [
                   SizedBox(height: 50),
                   Container(
-                    height: MediaQuery.of(context).size.height - 180,
+                    height: MediaQuery.of(context).size.height - 200,
                     width: MediaQuery.of(context).size.width - 70,
                     decoration: BoxDecoration(
                       color: borderColor,
@@ -65,7 +65,7 @@ class _CatVsDogPageRouteState extends State<CatVsDogPageRoute> {
                             child: Text('no Image has been picked yet.'),
                           ),
                   ),
-                  SizedBox(height: 20),
+                  SizedBox(height: 10),
                   state.analyseResult != null
                       ? Text(
                           state.analyseResult[0]['label'],
@@ -75,7 +75,7 @@ class _CatVsDogPageRouteState extends State<CatVsDogPageRoute> {
                           ),
                         )
                       : Container(),
-                  SizedBox(height: 20),
+                  SizedBox(height: 8),
                   ElevatedButton(
                     onPressed: () async {
                       await _catVsDogCubit.pickImageFromGallery();

@@ -14,7 +14,7 @@ packages:
       name: bloc
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "6.1.3"
+    version: "7.0.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -75,16 +75,21 @@ packages:
       name: flutter_bloc
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "6.1.3"
+    version: "7.0.0"
   flutter_plugin_android_lifecycle:
     dependency: transitive
     description:
       name: flutter_plugin_android_lifecycle
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.11"
+    version: "2.0.0"
   flutter_test:
     dependency: "direct dev"
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.0"
@@ -94,28 +99,42 @@ packages:
       name: http
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.2"
+    version: "0.13.1"
   http_parser:
     dependency: transitive
     description:
       name: http_parser
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.1.4"
+    version: "4.0.0"
   image_picker:
     dependency: "direct main"
     description:
       name: image_picker
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.6.7+22"
+    version: "0.7.3"
+  image_picker_for_web:
+    dependency: transitive
+    description:
+      name: image_picker_for_web
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0"
   image_picker_platform_interface:
     dependency: transitive
     description:
       name: image_picker_platform_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.6"
+    version: "2.0.1"
+  js:
+    dependency: transitive
+    description:
+      name: js
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.3"
   matcher:
     dependency: transitive
     description:
@@ -157,14 +176,14 @@ packages:
       name: plugin_platform_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.3"
+    version: "2.0.0"
   provider:
     dependency: transitive
     description:
       name: provider
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.3.3"
+    version: "5.0.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -215,9 +234,11 @@ packages:
   tflite:
     dependency: "direct main"
     description:
-      name: tflite
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: master
+      resolved-ref: "3d8d670b749db6b242a9b82b8915a7caf1cfb400"
+      url: "git://github.com/ImanMesgaran/flutter_tflite.git"
+    source: git
     version: "1.1.1"
   typed_data:
     dependency: transitive
@@ -234,5 +255,5 @@ packages:
     source: hosted
     version: "2.1.0"
 sdks:
-  dart: ">=2.12.0-0.0 <3.0.0"
-  flutter: ">=1.16.0"
+  dart: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"

@@ -1,4 +1,4 @@
-package com.example.flutter_ai_training
+package com.example.flutter_ai_playground
 
 import io.flutter.embedding.android.FlutterActivity
 

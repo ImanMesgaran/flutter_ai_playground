@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ai_training/core/global/colors.dart';
-import 'package:flutter_ai_training/features/cat_vs_dog/presentation/cubit/cat_vs_dog_cubit.dart';
+import 'package:flutter_ai_playground/core/global/colors.dart';
+import 'package:flutter_ai_playground/features/cat_vs_dog/presentation/cubit/cat_vs_dog_cubit.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:tflite/tflite.dart';
 

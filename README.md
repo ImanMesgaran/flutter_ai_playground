@@ -1,4 +1,4 @@
-# flutter_ai_training
+# flutter_ai_playground
 
 A new Flutter project.
 

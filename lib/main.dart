@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ai_training/home_page.dart';
+import 'package:flutter_ai_playground/home_page.dart';
 
 import 'features/cat_vs_dog/presentation/pages/cat_vs_dog_page_route.dart';
 
